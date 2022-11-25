@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+    height: 150vh;
+    margin: 0 auto;
+}
+
+.one, .three {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    flex: 1;
+}
+
+.two, .four {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    flex: 1;
+}
+
+.content {
+    border: 2px solid;
+    width: 70vw;
+}
