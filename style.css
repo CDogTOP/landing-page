@@ -8,22 +8,41 @@ body {
     margin: 0 auto;
 }
 
-.one, .three {
+.one, .three, .two, .four{
     display: flex;
-    justify-content: center;
-    background-color: aliceblue;
     flex: 1;
+    justify-content: center;
+}
+
+.one {
+    background-color: #1F2937;
+}
+
+.three {
+    background-color: #E5E7EB;
 }
 
 .two, .four {
-    display: flex;
-    justify-content: center;
-    background-color: beige;
-    flex: 1;
+    background-color: rgb(255, 255, 255);
 }
 
 .content {
-    border: 2px solid;
-    width: 625px;
+    width: 650px;
+    padding: 0;
     flex: 0 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
