@@ -129,7 +129,7 @@ body {
 
 .two .image {
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 .two .container {
@@ -139,7 +139,6 @@ body {
     width: 150px;
     color: #1F2937;
     text-align: center;
-    gap: 8px;
 }
 
 .two .square {
@@ -148,6 +147,7 @@ body {
     background-color: rgb(255, 255, 255);
     border: 3px solid #3882F6;
     border-radius: 12px;
+    margin-bottom: -8px;
 }
 
 
@@ -170,20 +170,19 @@ body {
 .three p {
     font-size: 32px;
     font-weight: light;
-    font-style: italic
+    font-style: italic;
 }
 
 .three h2 {
     text-align: right;
-    margin-top: 12px;
+    margin-top: -16px;
+    font-size: 20px;
 }
 
 
 
 .four {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .four .content {
