@@ -200,6 +200,10 @@ body {
     font-family: Hero, sans-serif;
 }
 
+.four h3 {
+    margin-bottom: 1px;
+}
+
 .four .popup {
     width: 725px;
     height: 110px;
