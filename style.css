@@ -145,3 +145,27 @@ body {
     border: 3px solid #3882F6;
     border-radius: 12px;
 }
+
+
+
+.three .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three .container {
+    color: #1F2937;
+    width: 575px;
+}
+
+.three p {
+    font-size: 32px;
+    font-weight: light;
+    font-style: italic
+}
+
+.three h2 {
+    text-align: right;
+    margin-top: 12px;
+}
