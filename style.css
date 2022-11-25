@@ -72,7 +72,7 @@ body {
     width: 650px;
 }
 
-.one h1, p, a, h2 {
+.one h1, .one p, .one a, .one h2 {
     margin: 0 0 8px 0;
     font-family: Hero, sans-serif;
 }
@@ -106,7 +106,6 @@ body {
 
 
 .two h2 {
-    color: #1F2937;
     margin-bottom: 36px;
     font-size: 28px;
 }
@@ -115,7 +114,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 28px;
+    padding: 12px;
+}
+
+.two h2, .two p {
+    color: #1F2937;
+    font-family: Hero, sans-serif;
 }
 
 .two p {
@@ -159,6 +163,10 @@ body {
     width: 575px;
 }
 
+.three p, .three h2 {
+    font-family: Hero, sans-serif;
+}
+
 .three p {
     font-size: 32px;
     font-weight: light;
@@ -169,3 +177,52 @@ body {
     text-align: right;
     margin-top: 12px;
 }
+
+
+
+.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.four .content {
+    flex: 4;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.four h3, .four p, .four .footer {
+    margin: 0;
+    font-family: Hero, sans-serif;
+}
+
+.four .popup {
+    width: 725px;
+    height: 110px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.four button {
+    border: 1px solid white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    padding: 4px 20px;
+}
+
+.four .footer {
+    background-color: #1F2937;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
